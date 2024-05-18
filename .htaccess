@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^(.*) index.php [L,QSA]
+    # Untuk menulis ulang peraturan url, 
+    # ketika url localhost/to-do-list-php/semua url setelah "to-do-list-php/", pasti akan selalu diarahkan ke file index.php     
+</IfModule>
